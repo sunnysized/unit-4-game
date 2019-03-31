@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+  <title>Crystals Collector Game</title>
+</head>
+
+<body>
+
+	<div class="header text-left">
+		<div class="col-sm-6">
+		<h1>SNOWFALL FOR THE SOPHISTICATED SOIREE</h1>
+	</div>
+		<div class="col-sm-6">
+			<p>Hidden within each snowflake is a value which will only be revealed by the click of your mouse.
+				This value will be added to your snowglobe, housing all of your snowflakes. Your goal is to match
+				the number of snowflakes in your snowglobe to the predetermined goal in order to create a crystal 
+				snowflake soiree! However, too many snowflakes and you'll create a blizzard and lose! Good luck!</p>
+			<h3>Snowflakes Needed:</h3>
+			<h3 id="snowflakeNumber"></h3>
+		<br>
+			</div>
+	</div>
+  
+  <div class="row text-left">
+    <div class="col-lg-11 total">
+      <h3>Snowflakes Caught:</h3>
+			<h3 id="totalScore"></h3>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+	<div class="row text-left">
+    <div class="col-lg-11 scores">
+      <p class="score">SOIREES: <span id="wins"></span></p> 
+      <p class="score">BLIZZARDS: <span id="losses"></span></p>
+      <br>
+    </div>
+	</div>
+	<div class="row text-left">
+			<div class="col-lg-9 button">
+				<h3 id="winOrLose"></h3>
+				<button type="button" class="btn btn-dark btn-medium">Play Again</button>
+			</div>
+		</div>
+  
+	<div class="container">
+		<br>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
+				<img class="snowflakeimg img-responsive" id="snowflake1" src="assets/images/snowflake1.png" alt="Snowflake 1"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
+				<img class="snowflakeimg img-responsive" id="snowflake2" src="assets/images/snowflake2.png" alt="Snowflake 2"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
+				<img class="snowflakeimg img-responsive" id="snowflake3" src="assets/images/snowflake3.png" alt="Snowflake 3"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
+				<img class="snowflakeimg img-responsive" id="snowflake4" src="assets/images/snowflake4.png" alt="Snowflake 4"/>
+			</div>
+		</div>
+
+		
+	</div>
+	
+</body>
+</html>
